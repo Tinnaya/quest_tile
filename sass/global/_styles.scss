@@ -1,0 +1,33 @@
+/* wrapper */
+body{
+  	width: 1920px;
+	height: 100%;
+	overflow-x: hidden;
+}
+#wrapper {
+	display:block;
+	position:relative;
+	width:100%;
+	height:100%;
+	background-image: url(../images/background.png);
+	background-repeat: repeat;
+}
+.layout {
+	margin:0 auto;
+	position:relative;
+	width:1110px;
+}
+main {
+	display:block;
+	width:100%;
+	position: relative;
+}
+#content{
+	position: relative;
+}
+#sidebar {
+	position: relative;
+}
+aside{
+	position: relative;
+}

@@ -1,0 +1,30 @@
+.quest_description{
+	width: 100%;
+	border-left: 1px solid #54BBB9;
+	border-right: 1px solid #54BBB9;
+	padding-right: 67px;
+	padding-left: 60px;
+	box-sizing: border-box;
+	h3{
+		font-family: $fontM;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 34px;
+		line-height: 41px;
+		// text-align: center;
+		text-transform: uppercase;
+		color: #F2F2F2;
+		margin-bottom: 40px;
+	}
+	p{
+		font-family: $fontM;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 29px;
+		text-indent: 24px;
+		color: #F2F2F2;
+		margin-bottom: 35px;
+
+	}
+}

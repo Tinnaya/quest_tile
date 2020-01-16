@@ -45,4 +45,10 @@ $(document).ready(function(){
      var goToSingleSlide = $(this).data('slick-index');
      $('.slider-single').slick('slickGoTo', goToSingleSlide);
   });
+	$('#button').on('click', function(){
+		$('#modal').show();
+	})
+	$('#modal').on('click', function() {
+		$(this).hide();
+	});
 });

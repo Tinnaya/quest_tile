@@ -7,19 +7,6 @@
 // "\2192" outputs ascii character "→"
 // "\2022" outputs ascii character "•"
 
-$slick-font-path: "./fonts/" !default;
-$slick-font-family: "slick" !default;
-$slick-loader-path: "./" !default;
-$slick-arrow-color: white !default;
-$slick-dot-color: black !default;
-$slick-dot-color-active: $slick-dot-color !default;
-$slick-prev-character: "\2190" !default;
-$slick-next-character: "\2192" !default;
-$slick-dot-character: "\2022" !default;
-$slick-dot-size: 6px !default;
-$slick-opacity-default: 0.75 !default;
-$slick-opacity-on-hover: 1 !default;
-$slick-opacity-not-active: 0.25 !default;
 
 @function slick-image-url($url) {
     @if function-exists(image-url) {
@@ -52,7 +39,10 @@ $slick-opacity-not-active: 0.25 !default;
     @font-face {
         font-family: "slick";
         src: slick-font-url("slick.eot");
-        src: slick-font-url("slick.eot?#iefix") format("embedded-opentype"), slick-font-url("slick.woff") format("woff"), slick-font-url("slick.ttf") format("truetype"), slick-font-url("slick.svg#slick") format("svg");
+        src: slick-font-url("slick.eot?#iefix") format("embedded-opentype"),
+         slick-font-url("slick.woff") format("woff"), 
+         slick-font-url("slick.ttf") format("truetype"),
+         slick-font-url("slick.svg#slick") format("svg");
         font-weight: normal;
         font-style: normal;
     }
@@ -70,7 +60,8 @@ $slick-opacity-not-active: 0.25 !default;
     font-size: 0px;
     cursor: pointer;
     background: transparent;
-    color: transparent;
+    // color: transparent;
+    color: #54BBB9;
     top: 50%;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -81,7 +72,7 @@ $slick-opacity-not-active: 0.25 !default;
     &:hover, &:focus {
         outline: none;
         background: transparent;
-        color: transparent;
+        color: #54BBB9;
         &:before {
             opacity: $slick-opacity-on-hover;
         }
